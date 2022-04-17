@@ -17,6 +17,7 @@ import java.util.stream.Stream;
 import static com.codeborne.selenide.Selenide.$;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+//@Execution(ExecutionMode.CONCURRENT) // не для моего ноутбука, много тестов
 @DisplayName("Класс с выбором и сменой города")
 public class DodoTest {
 
